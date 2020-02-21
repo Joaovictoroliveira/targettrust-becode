@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    height: 140px;
+}
+
+.header {
+    max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.header img {
+    height: 100px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #336699;
+    flex-direction: column;
+} 
+
+.banner .section-body {
+    max-width: 1140px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px;
+}
+
+.section-body .guia {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 150px;
+    
+}
+
+.guia h1{
+    font-size: 36px;
+}
+
+.guia p{
+    font-size: 25px;
+}
+
+.guia .section-title,
+.guia .section-desc {
+    padding-bottom: 25px;
+}
+
+.guia .section-desc {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.section-body .formulario {
+    display: flex;
+    width: 350px;
+    background-color: #efeff5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+}
+
+.form h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+    color: #404040;
+}
+
+.form p {
+    text-align: start;
+    padding-bottom: 35px;
+    color: #737373;
+}
+
+.form h5 {
+    color: #737373;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.check {
+    padding-bottom: 10px;
+}
+
+.form h6 {
+    color: #737373;
+}
+
+.form label {
+    color: #404040;
+}
+
+.form .input_size {
+    width: 300px;
+}
+
+.form input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form input.btn {
+    width: 330px;
+    background-color: #ff9900;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.informacoes {
+    display: flex;
+    width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.informacoes .section-body {
+    display: flex;
+    width: 1140px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+}
+
+.section-body img,
+.section-body h4 {
+    padding-bottom: 20px;
+}
+
+.informacoes .css {
+    padding-top: 15px;
+}
+
+.informacoes h4 {
+    display: flex;
+    margin: auto;
+    max-width: 190px;
+    font-size: 20px;
+    color: #404040;
+}
+
+.informacoes p {
+    display: flex;
+    margin: auto;
+    max-width: 250px;
+    font-size: 18px;
+    color: #737373;
+}
+
+.footer {
+    display: flex;
+    width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    color: #404040;
+}
